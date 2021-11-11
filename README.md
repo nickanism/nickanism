@@ -1,5 +1,7 @@
 ### Hello, what's up? 👋
 
+I’m currently working on ***10k Hours*** my personal passion project aiming to gamify long grind to further knowledge and understanding.
+
 <!--
 **nickanism/nickanism** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
