@@ -13,13 +13,13 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 import fetch from "node-fetch";
 
 const project10K = 
-  await fetch("https://api.github.com/repos/nickanism/10k-hours")
+  fetch("https://api.github.com/repos/nickanism/10k-hours")
   .then(res => res.json())
 const project10KCommits = 
-  await fetch("https://api.github.com/repos/nickanism/10k-hours/commits")
+  fetch("https://api.github.com/repos/nickanism/10k-hours/commits")
   .then(res => res.json())
-const rootProject = project10K
-const projectCommits = project10KCommits
+const rootProject = await project10K
+const projectCommits = await project10KCommits
 
 let DATA = {
   name: 'Woo Hyun An',
