@@ -3,5 +3,5 @@ My real name is Woo Hyun An.
 
 Currently, I am working on 10K Hours, a passion project of mine, aiming to be utilized for my niche needs for time management and lifestyle.
 
-git repository url for 10K Hours: https:&#x2F;&#x2F;github.com&#x2F;nickanism&#x2F;10k-hours
+git repository url for 10K Hours: https:&#x2F;&#x2F;github.com&#x2F;nickanism&#x2F;10k-hours <br>
 latest commit for 10K Hours: `[FIX] signin and signup buttons in the landing page have outline`
