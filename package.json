@@ -1,0 +1,22 @@
+{
+  "name": "nickanism-github-profile",
+  "version": "1.0.0",
+  "description": "I’m currently working on ***10k Hours*** my personal passion project aiming to gamify long grind to further knowledge and understanding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickanism/nickanism.git"
+  },
+  "author": "nickanism",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickanism/nickanism/issues"
+  },
+  "homepage": "https://github.com/nickanism/nickanism#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
