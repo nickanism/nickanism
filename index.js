@@ -13,7 +13,7 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 import fetch from "node-fetch";
 
 const project10K = 
-  fetch("https://api.github.com/repos/nickanism/10k-hours")
+  await fetch("https://api.github.com/repos/nickanism/10k-hours")
   .then(res => res.json())
 const project10KCommits = 
   await fetch("https://api.github.com/repos/nickanism/10k-hours/commits")
@@ -35,7 +35,7 @@ let DATA = {
   html_url: rootProject["html_url"],
   latest_commit: projectCommits[0].commit.message
 };
-
+console.log(DATA.html_url)
 console.log(DATA.latest_commit)
 /**
   * A - We open 'main.mustache'
