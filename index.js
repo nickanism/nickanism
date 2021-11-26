@@ -11,19 +11,12 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 
 // set up the Github REST API call
 import fetch from "node-fetch";
+if (!globalThis.fetch) {
+  globalThis.fetch = fetch;
+}
 
-const project10K = async () => {
-  return fetch("https://api.github.com/repos/nickanism/10k-hours")
-  .then(res => res.json())
-}
-  
-const project10KCommits = async () => {
-  return fetch("https://api.github.com/repos/nickanism/10k-hours/commits")
-  .then(res => res.json())
-}
-  
-const rootProject = await project10K()
-const projectCommits = await project10KCommits()
+const project10kRes = await fetch("https://api.github.com/repos/nickanism/10k-hours")
+const project10kResData = await project10kRes.json();
 
 let DATA = {
   name: 'Woo Hyun An',
@@ -36,11 +29,9 @@ let DATA = {
     timeZoneName: 'short',
     timeZone: 'America/New_York'
   }),
-  html_url: rootProject["html_url"],
-  latest_commit: projectCommits[0].commit.message
+  html_url: project10kResData["html_url"]
 };
 console.log(DATA.html_url)
-console.log(DATA.latest_commit)
 /**
   * A - We open 'main.mustache'
   * B - We ask Mustache to render our file with the data
