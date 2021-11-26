@@ -12,14 +12,18 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 // set up the Github REST API call
 import fetch from "node-fetch";
 
-const project10K = 
-  fetch("https://api.github.com/repos/nickanism/10k-hours")
+const project10K = async () => {
+  return fetch("https://api.github.com/repos/nickanism/10k-hours")
   .then(res => res.json())
-const project10KCommits = 
-  fetch("https://api.github.com/repos/nickanism/10k-hours/commits")
+}
+  
+const project10KCommits = async () => {
+  return fetch("https://api.github.com/repos/nickanism/10k-hours/commits")
   .then(res => res.json())
-const rootProject = await project10K
-const projectCommits = await project10KCommits
+}
+  
+const rootProject = await project10K()
+const projectCommits = await project10KCommits()
 
 let DATA = {
   name: 'Woo Hyun An',

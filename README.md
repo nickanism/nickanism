@@ -7,3 +7,4 @@ git repository url for 10K Hours: https:&#x2F;&#x2F;github.com&#x2F;nickanism&#x
 latest commit for 10K Hours: `[FIX] landing page clause changed`  
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickanism&theme=radical&count_private=true" />
+
