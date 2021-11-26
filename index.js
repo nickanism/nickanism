@@ -15,9 +15,6 @@ if (!globalThis.fetch) {
   globalThis.fetch = fetch;
 }
 
-const project10kRes = await fetch("https://api.github.com/repos/nickanism/10k-hours")
-const project10kResData = await project10kRes.json();
-
 let DATA = {
   name: 'Woo Hyun An',
   date: new Date().toLocaleDateString('en-US', {
@@ -28,10 +25,9 @@ let DATA = {
     minute: 'numeric',
     timeZoneName: 'short',
     timeZone: 'America/New_York'
-  }),
-  html_url: project10kResData["html_url"]
+  })
 };
-console.log(DATA.html_url)
+
 /**
   * A - We open 'main.mustache'
   * B - We ask Mustache to render our file with the data
