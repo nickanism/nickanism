@@ -5,6 +5,6 @@ Currently, I am working on 10K Hours, a passion project of mine, aiming to be ut
 
 git repository url for 10K Hours: https:&#x2F;&#x2F;github.com&#x2F;nickanism&#x2F;10k-hours  
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=nickanism&theme=radical&count_private=true" /> 
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickanism&theme=radical&hide=sass&count_private=true&layout=compact" /> 
 
 
