@@ -5,7 +5,7 @@ Currently, I am working on 10K Hours, a passion project of mine, aiming to be ut
 
 git repository url for 10K Hours: https://github.com/nickanism/10k-hours
 
-[![nickanism's GitHub stats](https://github-readme-stats.vercel.app/top-langs/api?username=nickanism&hide=sass&count_private=true&show_icons=true)](https://github.com/nickanism/github-readme-stats)
+[![nickanism's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs/?username=nickanism&hide=scss&count_private=true&layout=compact&show_icons=true)](https://github.com/nickanism/github-readme-stats)
 
 
 
